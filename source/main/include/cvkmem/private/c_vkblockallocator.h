@@ -42,6 +42,7 @@ namespace ncore
             block_allocator_t(block_allocator_t&& other);
             ~block_allocator_t();
 
+            // TODO Pass alloc_t* instead of having the block allocator use new/delete
             void init(u32 size, u32 maxAllocs = 128 * 1024);
             void destroy();
 
