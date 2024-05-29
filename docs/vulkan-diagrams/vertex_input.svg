@@ -1,0 +1,3548 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="793.70081"
+   height="1122.5197"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="vertex_input.svg"
+   inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\descriptor_sets.png"
+   inkscape:export-xdpi="20.192223"
+   inkscape:export-ydpi="20.192223">
+  <defs
+     id="defs2">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2756"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#6edea6;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2754" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2746"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#7b7b7b;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2744" />
+    </marker>
+    <marker
+       inkscape:stockid="Tail"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Tail"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <g
+         id="g2518"
+         transform="scale(-1.2)">
+        <path
+           id="path2506"
+           d="M -3.8048674,-3.9585227 L 0.54352094,0"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round" />
+        <path
+           id="path2508"
+           d="M -1.2866832,-3.9585227 L 3.0617053,0"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round" />
+        <path
+           id="path2510"
+           d="M 1.3053582,-3.9585227 L 5.6537466,0"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round" />
+        <path
+           id="path2512"
+           d="M -3.8048674,4.1775838 L 0.54352094,0.21974226"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round" />
+        <path
+           id="path2514"
+           d="M -1.2866832,4.1775838 L 3.0617053,0.21974226"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round" />
+        <path
+           id="path2516"
+           d="M 1.3053582,4.1775838 L 5.6537466,0.21974226"
+           style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.8;stroke-linecap:round" />
+      </g>
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2450"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#7b7b7b;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2448" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2410"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:none;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2408" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2094"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2092" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2058"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#aaaaaa;stroke-width:1pt;stroke-opacity:1;fill:#aaaaaa;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2056" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1568"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1566" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker7035"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path7033"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6785"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6783"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6257"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6255"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5734"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5732"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5608"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5606"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5598"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5596"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5588"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5586"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5422"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5420"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5019"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5017"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4775"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4773"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4765"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4763"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4583"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4581"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4573"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path4571"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4563"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4561"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4531"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4529" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4513"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4511" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4479"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4477" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4223"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4221" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4191"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#aaaaaa;stroke-width:1pt;stroke-opacity:0.73888891;fill:#aaaaaa;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4189" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker3789"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3787" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker3759"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3757" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker3462"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3460" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2826"
+       style="overflow:visible;"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path2824"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2804"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2802" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2787"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2785" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2606"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2604" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2212"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2210"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4613"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4611"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4605"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4603"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4597"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4595"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4535"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4533"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4459"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4457"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3875"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3873"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3611"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3609"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3575"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3573"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3471"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3469"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3429"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3427"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3419"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3417"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3332"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3330"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3189"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3187"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2832"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2830"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1950"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1948"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1931"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1929"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1912"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1910"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1824"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1822"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2919"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2917"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2639"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2637"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2495"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2493"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2401"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2399" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2143"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2141" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6205"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6203"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker6041"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path6039"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5903"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5901" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5853"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5851"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5755"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5753"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5745"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5743"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5577"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5575"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5402"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5400" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5009"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5007" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4692"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4690"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4220"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4218"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4176"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4174"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4086"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4084" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3622"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3620"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3612"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3610"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3602"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3600"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker3564"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path3562"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker3416"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3414" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker3336"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3334" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker3328"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path3326" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2920"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2918" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker2545"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path2543" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1487"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1485" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1556"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1554" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1552"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1550"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1548"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1546" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker2061"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path2059"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1557"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1555"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker1311"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path1309"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#ff0000;stroke-width:1pt;stroke-opacity:1;fill:#ff0000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1243"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1241" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker1213"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1211" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker5508"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path5506"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5231"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5229" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5225"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5223" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5219"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5217" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5213"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5211" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5143"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5141" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker5119"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path5117" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker4844"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path4842" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker4794"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path4792"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker14015"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path14013"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker13187"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path13185" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker12557"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path12555" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker12513"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path12511"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker12101"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path12099" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker9114"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path9112"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4712"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker9558-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path9556-9" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5073-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5071-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1593"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1591"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1702"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1700" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1703-0"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1701-6" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1703-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1701-0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1703-03"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1701-9" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1703-24"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1701-2" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1703-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1701-1" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker5735-0"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5733-3"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1716-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1714-3" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker2761-5"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2759-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker2761-6"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2759-1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker2335-9"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path2333-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker4573-7"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4571-4"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.088295215"
+     inkscape:cx="17622.264"
+     inkscape:cy="-3344.9914"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     showborder="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:snap-nodes="true"
+     inkscape:snap-object-midpoints="true"
+     inkscape:snap-global="false"
+     showguides="false" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="bg"
+     sodipodi:insensitive="true">
+    <path
+       style="opacity:1;vector-effect:none;fill:#e8e8e8;fill-opacity:1;stroke:none;stroke-width:1.2869333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.14773314, 5.14773314;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 4698.6591,1239.6039 249.6807,310.7249 h 1125.6328 v -379.1712 z"
+       id="path1468"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#e8e8e8;fill-opacity:1;stroke:none;stroke-width:1.2869333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.14773322, 5.14773322;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 4730.4709,1072.3776 4948.0514,600.24014 H 6073.9726 V 1148.9405 H 4729.3833 Z"
+       id="path1466"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="1171.1576"
+       x="2982.8557"
+       height="161.79565"
+       width="3091.1172"
+       id="rect1387"
+       style="opacity:1;vector-effect:none;fill:#e8e8e8;fill-opacity:1;stroke:none;stroke-width:2.52718568;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#e8e8e8;fill-opacity:1;stroke:none;stroke-width:2.52718568;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1377"
+       width="3091.1172"
+       height="161.79565"
+       x="2982.8557"
+       y="988.44196"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+  </g>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       xml:space="preserve"
+       id="flowRoot1395"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.48399758"
+       transform="matrix(0.40444133,0,0,0.40444133,3357.1552,1288.3755)"><flowRegion
+         id="flowRegion1391"
+         style="font-size:96px;stroke-width:0.48399758"><rect
+           id="rect1389"
+           width="963.40033"
+           height="493.63641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:0.48399758" /></flowRegion><flowPara
+         id="flowPara1393"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:95.9994812px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.48399758">binding</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.84797585,0,0,0.84797585,3665.5697,1447.7494)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23084222"
+       id="flowRoot1403"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         style="font-size:96px;stroke-width:0.23084222"
+         id="flowRegion1399"><rect
+           style="font-size:96px;stroke-width:0.23084222"
+           y="-251.76607"
+           x="-1174.2858"
+           height="493.63641"
+           width="963.40033"
+           id="rect1397" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:95.9994812px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.23084222"
+         id="flowPara1401">1</flowPara></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="1155.4596"
+       y="969.02252"
+       id="text2380"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><tspan
+         sodipodi:role="line"
+         id="tspan2378"
+         x="1155.4596"
+         y="978.67804"
+         style="stroke-width:0.26458332" /></text>
+    <path
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path5384"
+       d="m 3946.3095,1503.6571 h 111.422"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.8225255;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker5402)" />
+    <path
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.8225255;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:7.29010181, 7.29010181;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker12557)"
+       d="m 3946.3095,1541.0749 h 111.422"
+       id="path5386"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       xml:space="preserve"
+       id="flowRoot5396"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.33518079,0,0,0.33518079,4459.6135,1566.8393)"><flowRegion
+         id="flowRegion5390"
+         style="font-size:96px"><rect
+           id="rect5388"
+           width="891.42859"
+           height="231.42857"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara5392">pointer</flowPara><flowPara
+         id="flowPara5394">reference</flowPara></flowRoot>    <flowRoot
+       transform="matrix(0.33518079,0,0,0.33518079,3373.3902,1786.8784)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.42777776;stroke:none"
+       id="flowRoot1978"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         style="font-size:96px;fill:#000000;fill-opacity:0.42777776"
+         id="flowRegion1972"><rect
+           style="font-size:96px;fill:#000000;fill-opacity:0.42777776"
+           y="-251.76607"
+           x="-1174.2858"
+           height="267.28473"
+           width="1581.6598"
+           id="rect1970" /></flowRegion><flowPara
+         id="flowPara1982">Made by David DiGioia</flowPara><flowPara
+         id="flowPara1986">davidofjoy@gmail.com</flowPara></flowRoot>    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1809"
+       width="517.32471"
+       height="150.1106"
+       x="5543.2598"
+       y="987.69098"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1817"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,5873.0325,1059.8161)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1813"
+         style="font-size:96px"><rect
+           id="rect1811"
+           width="2074.0752"
+           height="151.05997"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara1815"
+         style="font-weight:bold">VkVertexInputBindingDescription</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="506.85922"
+       x="4916.8018"
+       height="1077.5863"
+       width="1187.0659"
+       id="rect1819"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1827"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,5560.4895,586.3899)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1823"
+         style="font-size:96px"><rect
+           id="rect1821"
+           width="2275.7065"
+           height="191.87276"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara1825"
+         style="font-weight:bold">VkPipelineVertexInputStateCreateInfo</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path1829"
+       d="M 5601.1241,547.0593 5712.228,985.24222"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.28699994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2787)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       transform="matrix(0.19574864,0,0,0.19574864,5889.5611,789.58362)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1837"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         style="font-size:96px"
+         id="flowRegion1833"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="195.16559"
+           width="1549.4885"
+           id="rect1831" /></flowRegion><flowPara
+         id="flowPara1835">pVertexBindingDescriptions</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,5797.5655,1093.5544)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot1853"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion1841"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect1839" /></flowRegion><flowPara
+         id="flowPara1851"
+         style="stroke-width:1.29148018">binding</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2228">stride</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2230">inputRate</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1869"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,5901.7845,1093.5544)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1857"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect1855"
+           width="2388.3584"
+           height="1050.6703"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara1867"
+         style="stroke-width:1.29148018">= 0</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2246">= sizeof(Vertex)</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2248">= VK_VERTEX_INPUT_RATE_VERTEX</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="174.85817"
+       x="4833.71"
+       height="1465.603"
+       width="1324.2628"
+       id="rect2154"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.26458333,0,0,0.26458333,5731.5535,256.65661)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2162"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion2158"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="231.42857"
+           width="1523.4286"
+           id="rect2156" /></flowRegion><flowPara
+         id="flowPara2160"
+         style="font-weight:bold">VkPipeline</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.19574864,0,0,0.19574864,5657.0202,321.61682)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2208"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion2204"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="231.42857"
+           width="891.42859"
+           id="rect2202" /></flowRegion><flowPara
+         id="flowPara2206">pStages</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="607.91595"
+       x="4957.5811"
+       height="177.15176"
+       width="538.35675"
+       id="rect2250"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.26458333,0,0,0.26458333,5287.3545,680.041)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2258"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion2254"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="151.05997"
+           width="2074.0752"
+           id="rect2252" /></flowRegion><flowPara
+         style="font-weight:bold"
+         id="flowPara2256">VkVertexInputAttributeDescription</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2270"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,5211.8865,713.7792)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion2262"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect2260"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara2268"
+         style="stroke-width:1.29148018">location</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2289">binding</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2291">format</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2293">offset</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,5316.1065,713.7792)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot2282"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion2274"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1050.6703"
+           width="2388.3584"
+           id="rect2272" /></flowRegion><flowPara
+         id="flowPara2280"
+         style="stroke-width:1.29148018">= 0</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2300">= 0</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2302">= VK_FORMAT_R32G32B32_SFLOAT</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2304">= offsetof(Vertex, position)</flowPara></flowRoot>    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2306"
+       width="538.35675"
+       height="177.15176"
+       x="4957.5811"
+       y="785.06781"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2314"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,5287.3545,857.1927)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion2310"
+         style="font-size:96px"><rect
+           id="rect2308"
+           width="2074.0752"
+           height="151.05997"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara2312"
+         style="font-weight:bold">VkVertexInputAttributeDescription</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,5211.8865,890.9309)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot2328"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion2318"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect2316" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2320">location</flowPara><flowPara
+         id="flowPara2322"
+         style="stroke-width:1.29148018">binding</flowPara><flowPara
+         id="flowPara2324"
+         style="stroke-width:1.29148018">format</flowPara><flowPara
+         id="flowPara2326"
+         style="stroke-width:1.29148018">offset</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2342"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,5316.1065,890.9309)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion2332"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect2330"
+           width="2388.3584"
+           height="1050.6703"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2334">= 1</flowPara><flowPara
+         id="flowPara2336"
+         style="stroke-width:1.29148018">= 0</flowPara><flowPara
+         id="flowPara2338"
+         style="stroke-width:1.29148018">= VK_FORMAT_R32G32B32_SFLOAT</flowPara><flowPara
+         id="flowPara2340"
+         style="stroke-width:1.29148018">= offsetof(Vertex, normal)</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="962.21954"
+       x="4957.5811"
+       height="177.15176"
+       width="538.35675"
+       id="rect2344"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.26458333,0,0,0.26458333,5287.3545,1034.3445)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2352"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion2348"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="151.05997"
+           width="2074.0752"
+           id="rect2346" /></flowRegion><flowPara
+         style="font-weight:bold"
+         id="flowPara2350">VkVertexInputAttributeDescription</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2366"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,5211.8865,1068.0827)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion2356"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect2354"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara2358"
+         style="stroke-width:1.29148018">location</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2360">binding</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2362">format</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2364">offset</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,5316.1065,1068.0827)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot2380"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion2370"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1050.6703"
+           width="2388.3584"
+           id="rect2368" /></flowRegion><flowPara
+         id="flowPara2372"
+         style="stroke-width:1.29148018">= 2</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2374">= 0</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2376">= VK_FORMAT_R32G32_SFLOAT</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2378">= offsetof(Vertex, texCoord)</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,5174.8095,341.81355)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot2394"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion2384"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1050.6703"
+           width="2388.3584"
+           id="rect2382" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2392">layout(location = 0) in vec3 vertexPosition;</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2405">layout(location = 1) in vec3 vertexNormal;</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2407">layout(location = 2) in vec2 vertexTexCoord;</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1419" /><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara5070">layout(location = 3) in vec3 instancePosition;</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1417">layout(location = 4) in vec3 instanceColor;</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:connector-curvature="0"
+       id="path2409"
+       d="m 4920.1474,233.27478 v 247.08314 l 41.6627,-26.45606 27.9408,14.91369 61.7655,-16.70354 55.8827,14.31718 20.5885,-16.7031 55.8827,18.49295 29.4116,-17.89645 63.2351,17.89645 36.7649,-15.51019 72.8957,27.64907 V 233.27478 Z"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.06985641;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.26458333,0,0,0.26458333,5398.6674,314.72633)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2417"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion2413"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="231.42857"
+           width="891.42859"
+           id="rect2411" /></flowRegion><flowPara
+         id="flowPara2415">shader.vert</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.28699994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2804)"
+       d="m 5399.8765,546.6108 -47.027,59.116"
+       id="path2602"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       xml:space="preserve"
+       id="flowRoot2614"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.19574864,0,0,0.19574864,5322.9845,606.5282)"><flowRegion
+         id="flowRegion2610"
+         style="font-size:96px"><rect
+           id="rect2608"
+           width="1549.4885"
+           height="195.16559"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara2612">pVertexAttributeDescriptions</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2626"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,4612.2833,1553.9278)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion2618"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect2616"
+           width="2263.6985"
+           height="1945.2892"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara2624"
+         style="stroke-width:1.29148018">struct Vertex {</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2644">    vec3 position;</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2646">    vec3 normal;</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2648">    vec2 texCoord;</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2650">};</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1405" /><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1407">struct InstanceData {</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1415">    vec3 position;</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1426">    vec3 color;</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1411">};</flowPara></flowRoot>    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.06985641;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 4320.0723,1446.43 v 370.7244 l 40.142,-39.6948 26.921,22.3766 59.511,-25.0621 53.842,21.4816 19.837,-25.0614 53.843,27.7469 28.338,-26.8519 60.927,26.8519 35.423,-23.2716 70.235,41.4848 V 1446.43 Z"
+       id="path2628"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2636"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,4792.6503,1524.0014)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion2632"
+         style="font-size:96px"><rect
+           id="rect2630"
+           width="891.42859"
+           height="231.42857"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara2634">main.cpp</flowPara></flowRoot>    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718568;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect2652"
+       width="976.73499"
+       height="478.89847"
+       x="3211.3779"
+       y="869.27148"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.26458333,0,0,0.26458333,3803.8985,948.80212)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2660"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion2656"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="191.87276"
+           width="2275.7065"
+           id="rect2654" /></flowRegion><flowPara
+         style="font-weight:bold"
+         id="flowPara2658">vkCmdBindVertexBuffers(...)</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="993.7533"
+       x="3248.7207"
+       height="150.1106"
+       width="601.45276"
+       id="rect2725"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.26458333,0,0,0.26458333,3800.8315,1065.8782)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot2733"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion2729"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="151.05997"
+           width="2074.0752"
+           id="rect2727" /></flowRegion><flowPara
+         style="font-weight:bold"
+         id="flowPara2731">VkBuffer</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2745"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,3502.4955,1099.6165)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion2737"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect2735"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara2743"
+         style="stroke-width:1.29148018">size</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara3095">usage</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara3097">sharingMode</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,3636.2315,1099.6165)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot2757"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion2749"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1050.6703"
+           width="2388.3584"
+           id="rect2747" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara2751">= 3 * sizeof(Vertex) bytes</flowPara><flowPara
+         id="flowPara2753"
+         style="stroke-width:1.29148018">= VK_BUFFER_USAGE_VERTEX_BUFFER_BIT</flowPara><flowPara
+         id="flowPara2755"
+         style="stroke-width:1.29148018">= VK_SHARING_MODE_EXCLUSIVE</flowPara></flowRoot>    <path
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.28699994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2826)"
+       d="m 3873.0865,910.2083 -71.654,82.4005"
+       id="path2812"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       xml:space="preserve"
+       id="flowRoot2820"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.19574864,0,0,0.19574864,3984.0325,973.51468)"><flowRegion
+         id="flowRegion2816"
+         style="font-size:96px"><rect
+           id="rect2814"
+           width="1549.4885"
+           height="195.16559"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara2818">pBuffers</flowPara></flowRoot>    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3147"
+       width="601.45276"
+       height="150.1106"
+       x="3248.7207"
+       y="1176.9454"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3156"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,3800.8315,1249.0704)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion3152"
+         style="font-size:96px"><rect
+           id="rect3150"
+           width="2074.0752"
+           height="151.05997"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara3154"
+         style="font-weight:bold">VkBuffer</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,3502.4955,1282.8086)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot3173"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion3160"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect3158" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara3167">size</flowPara><flowPara
+         id="flowPara3169"
+         style="stroke-width:1.29148018">usage</flowPara><flowPara
+         id="flowPara3171"
+         style="stroke-width:1.29148018">sharingMode</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3185"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,3636.2315,1282.8086)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion3177"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect3175"
+           width="2388.3584"
+           height="1050.6703"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara3179"
+         style="stroke-width:1.29148018">= 4 * sizeof(InstanceData) bytes</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara3181">= VK_BUFFER_USAGE_VERTEX_BUFFER_BIT</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara3183">= VK_SHARING_MODE_EXCLUSIVE</flowPara></flowRoot>    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect3199"
+       width="248.41528"
+       height="150.1106"
+       x="3902.2158"
+       y="993.7533"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3208"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,4242.5045,1065.8782)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion3204"
+         style="font-size:96px"><rect
+           id="rect3202"
+           width="2074.0752"
+           height="151.05997"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara3206"
+         style="font-weight:bold">VkDeviceSize</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.55637117,0,0,0.55637117,4664.1455,1188.0054)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.47555181"
+       id="flowRoot3221"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:0.47555181"
+         id="flowRegion3212"><rect
+           style="font-size:96px;stroke-width:0.47555181"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect3210" /></flowRegion><flowPara
+         id="flowPara3219"
+         style="stroke-width:0.47555181">0</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="1176.9454"
+       x="3902.2158"
+       height="150.1106"
+       width="248.41528"
+       id="rect3274"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.26458333,0,0,0.26458333,4242.5045,1249.0704)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3282"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion3278"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="151.05997"
+           width="2074.0752"
+           id="rect3276" /></flowRegion><flowPara
+         style="font-weight:bold"
+         id="flowPara3280">VkDeviceSize</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path3448"
+       d="m 3885.9865,910.2083 71.412,82.4005"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.28699982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker3462)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       transform="matrix(0.19574864,0,0,0.19574864,4157.5475,973.51468)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot3456"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         style="font-size:96px"
+         id="flowRegion3452"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="195.16559"
+           width="1549.4885"
+           id="rect3450" /></flowRegion><flowPara
+         id="flowPara3454">pOffsets</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3863"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.40751994"
+       transform="matrix(0.18797838,0,0,0.18797838,4134.3281,1291.7525)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion3859"
+         style="font-size:96px;stroke-width:1.40751994"><rect
+           id="rect3857"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.40751994" /></flowRegion><flowPara
+         style="stroke-width:1.40751994"
+         id="flowPara3861">2 * sizeof(InstanceData)</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="1181.2521"
+       x="5543.2598"
+       height="150.1106"
+       width="517.32471"
+       id="rect4153"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.26458333,0,0,0.26458333,5873.0335,1253.377)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot4161"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion4157"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="151.05997"
+           width="2074.0752"
+           id="rect4155" /></flowRegion><flowPara
+         style="font-weight:bold"
+         id="flowPara4159">VkVertexInputBindingDescription</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4173"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,5797.5655,1287.1153)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion4165"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect4163"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara4167">binding</flowPara><flowPara
+         id="flowPara4169"
+         style="stroke-width:1.29148018">stride</flowPara><flowPara
+         id="flowPara4171"
+         style="stroke-width:1.29148018">inputRate</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,5901.7845,1287.1153)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot4185"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion4177"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1050.6703"
+           width="2388.3584"
+           id="rect4175" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara4179">= 1</flowPara><flowPara
+         id="flowPara4181"
+         style="stroke-width:1.29148018">= sizeof(InstanceData)</flowPara><flowPara
+         id="flowPara4183"
+         style="stroke-width:1.29148018">= VK_VERTEX_INPUT_RATE_INSTANCE</flowPara></flowRoot>    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.28699994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker4513)"
+       d="m 5527.0825,221.78737 96.365,281.76676"
+       id="path4473"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot4523"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.19574864,0,0,0.19574864,5808.2965,383.12437)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion4519"
+         style="font-size:96px"><rect
+           id="rect4517"
+           width="951.12274"
+           height="215.14835"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara4521">pVertexInputState</flowPara></flowRoot>    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.28699982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.14799936, 5.14799936;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker4573)"
+       d="m 4040.2986,1329.2062 c 66.063,73.9755 366.6329,90.291 436.8538,-0.2699"
+       id="path4567"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       transform="matrix(0.40444133,0,0,0.40444133,3357.1552,1107.2655)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.48399758"
+       id="flowRoot4603"
+       xml:space="preserve"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         style="font-size:96px;stroke-width:0.48399758"
+         id="flowRegion4597"><rect
+           style="font-size:96px;stroke-width:0.48399758"
+           y="-251.76607"
+           x="-1174.2858"
+           height="493.63641"
+           width="963.40033"
+           id="rect4595" /></flowRegion><flowPara
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:95.9994812px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.48399758"
+         id="flowPara4601">binding</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       xml:space="preserve"
+       id="flowRoot4999"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.19574864,0,0,0.19574864,3624.6578,819.57921)"><flowRegion
+         id="flowRegion4995"
+         style="font-size:96px"><rect
+           id="rect4993"
+           width="1549.4885"
+           height="195.16559"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara4997">firstBinding = 0</flowPara></flowRoot>    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5002"
+       width="1597.5752"
+       height="1071.1104"
+       x="3171.8906"
+       y="352.01181"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.26458333,0,0,0.26458333,4149.1779,433.57028)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot5011"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion5006"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="191.87276"
+           width="2275.7065"
+           id="rect5004" /></flowRegion><flowPara
+         style="font-weight:bold"
+         id="flowPara5009">vkCommandBuffer</flowPara></flowRoot>    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect5072"
+       width="538.35675"
+       height="177.15176"
+       x="4957.5811"
+       y="1181.3235"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5080"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,5287.3545,1253.4483)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion5076"
+         style="font-size:96px"><rect
+           id="rect5074"
+           width="2074.0752"
+           height="151.05997"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara5078"
+         style="font-weight:bold">VkVertexInputAttributeDescription</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,5211.8865,1287.1865)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot5094"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion5084"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect5082" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara5086">location</flowPara><flowPara
+         id="flowPara5088"
+         style="stroke-width:1.29148018">binding</flowPara><flowPara
+         id="flowPara5090"
+         style="stroke-width:1.29148018">format</flowPara><flowPara
+         id="flowPara5092"
+         style="stroke-width:1.29148018">offset</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot5108"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,5316.1065,1287.1865)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion5098"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect5096"
+           width="2388.3584"
+           height="1050.6703"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara5100">= 3</flowPara><flowPara
+         id="flowPara5102"
+         style="stroke-width:1.29148018">= 1</flowPara><flowPara
+         id="flowPara5104"
+         style="stroke-width:1.29148018">= VK_FORMAT_R32G32B32_SFLOAT</flowPara><flowPara
+         id="flowPara5106"
+         style="stroke-width:1.29148018">= offsetof(InstanceData, position)</flowPara></flowRoot>    <path
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       id="path6779"
+       d="m 5459.4795,218.94671 -71.3509,118.65813"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.28699994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker6785)"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.2869333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.14773327, 5.14773327;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker7035)"
+       d="m 4929.4565,300.76328 c -48.865,0 -50.459,10.62277 -50.459,50.45818 l 0,279.86768 c 0,25.49466 9.561,42.75667 42.757,42.75667 h 46.475"
+       id="path7029"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csssc"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       xml:space="preserve"
+       id="flowRoot1385"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.23084222"
+       transform="matrix(0.84797585,0,0,0.84797585,3665.5697,1266.6394)"><flowRegion
+         id="flowRegion1381"
+         style="font-size:96px;stroke-width:0.23084222"><rect
+           id="rect1379"
+           width="963.40033"
+           height="493.63641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:0.23084222" /></flowRegion><flowPara
+         id="flowPara1383"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:95.9994812px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;writing-mode:lr-tb;text-anchor:middle;stroke-width:0.23084222">0</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="1358.4752"
+       x="4957.5811"
+       height="177.15176"
+       width="538.35675"
+       id="rect1428"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.26458333,0,0,0.26458333,5287.3545,1430.6)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot1436"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px"
+         id="flowRegion1432"><rect
+           style="font-size:96px"
+           y="-251.76607"
+           x="-1174.2858"
+           height="151.05997"
+           width="2074.0752"
+           id="rect1430" /></flowRegion><flowPara
+         style="font-weight:bold"
+         id="flowPara1434">VkVertexInputAttributeDescription</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1450"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,5211.8865,1464.3382)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1440"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect1438"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara1442"
+         style="stroke-width:1.29148018">location</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1444">binding</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1446">format</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1448">offset</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,5316.1065,1464.3382)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot1464"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion1454"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1050.6703"
+           width="2388.3584"
+           id="rect1452" /></flowRegion><flowPara
+         id="flowPara1456"
+         style="stroke-width:1.29148018">= 4</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1458">= 1</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1460">= VK_FORMAT_R32G32B32_SFLOAT</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1462">= offsetof(InstanceData, color)</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="993.7533"
+       x="4209.3647"
+       height="150.1106"
+       width="134.03014"
+       id="rect1470"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,4464.5783,1092.0201)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot1486"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion1478"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect1476" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1493">position</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1497">normal</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1499">texCoord</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1511"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,4556.7504,1099.6165)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1503"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect1501"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara1509"
+         style="stroke-width:1.29148018" /></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1528"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,4481.5295,1055.9988)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1520"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect1518"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara1526"
+         style="font-weight:bold;stroke-width:1.29148018">Vertex</flowPara></flowRoot>    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.28699994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.14799942, 5.14799941999999966;stroke-dashoffset:0;stroke-opacity:1;font-variant-east_asian:normal;marker-end:url(#marker1568)"
+       d="m 4150.2578,1083.6012 59.1069,60.2627"
+       id="path1542"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#aaaaaa;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1572"
+       width="134.03014"
+       height="150.1106"
+       x="4209.3647"
+       y="1177.0381"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1610"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:1.29148018;"
+       transform="matrix(0.20486828,0,0,0.20486828,4464.5783,1275.3049)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1602"
+         style="font-size:96px;stroke-width:1.29148018;fill:#aaaaaa;fill-opacity:1;"><rect
+           id="rect1600"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018;fill:#aaaaaa;fill-opacity:1;" /></flowRegion><flowPara
+         id="flowPara1604"
+         style="stroke-width:1.29148018;fill:#aaaaaa;fill-opacity:1;">position</flowPara><flowPara
+         id="flowPara1608"
+         style="stroke-width:1.29148018;fill:#aaaaaa;fill-opacity:1;">color</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.16027161,0,0,0.20486828,4406.1095,1239.2836)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:1.46014774;"
+       id="flowRoot1618"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.46014774;fill:#aaaaaa;fill-opacity:1;"
+         id="flowRegion1614"><rect
+           style="font-size:96px;stroke-width:1.46014774;fill:#aaaaaa;fill-opacity:1;"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect1612" /></flowRegion><flowPara
+         style="font-weight:bold;stroke-width:1.46014774;fill:#aaaaaa;fill-opacity:1;"
+         id="flowPara1616">InstanceData</flowPara></flowRoot>    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1622"
+       width="134.03014"
+       height="150.1106"
+       x="4343.395"
+       y="993.7533"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1634"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,4598.6086,1092.0201)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1626"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect1624"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara1628"
+         style="stroke-width:1.29148018">position</flowPara><flowPara
+         id="flowPara1630"
+         style="stroke-width:1.29148018">normal</flowPara><flowPara
+         id="flowPara1632"
+         style="stroke-width:1.29148018">texCoord</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,4615.5598,1055.9988)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot1642"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion1638"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect1636" /></flowRegion><flowPara
+         style="font-weight:bold;stroke-width:1.29148018"
+         id="flowPara1640">Vertex</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="1177.0381"
+       x="4343.395"
+       height="150.1106"
+       width="134.03014"
+       id="rect1644"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#aaaaaa;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,4598.6086,1275.3049)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:1.29148018;"
+       id="flowRoot1654"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018;fill:#aaaaaa;fill-opacity:1;"
+         id="flowRegion1648"><rect
+           style="font-size:96px;stroke-width:1.29148018;fill:#aaaaaa;fill-opacity:1;"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect1646" /></flowRegion><flowPara
+         style="stroke-width:1.29148018;fill:#aaaaaa;fill-opacity:1;"
+         id="flowPara1650">position</flowPara><flowPara
+         style="stroke-width:1.29148018;fill:#aaaaaa;fill-opacity:1;"
+         id="flowPara1652">color</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1662"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aaaaaa;fill-opacity:1;stroke:none;stroke-width:1.46014774;"
+       transform="matrix(0.16027161,0,0,0.20486828,4540.1398,1239.2836)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1658"
+         style="font-size:96px;stroke-width:1.46014774;fill:#aaaaaa;fill-opacity:1;"><rect
+           id="rect1656"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.46014774;fill:#aaaaaa;fill-opacity:1;" /></flowRegion><flowPara
+         id="flowPara1660"
+         style="font-weight:bold;stroke-width:1.46014774;fill:#aaaaaa;fill-opacity:1;">InstanceData</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="993.7533"
+       x="4477.4253"
+       height="150.1106"
+       width="134.03014"
+       id="rect1664"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,4732.6389,1092.0201)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot1676"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion1668"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect1666" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1670">position</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1672">normal</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1674">texCoord</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1684"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,4749.5901,1055.9988)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1680"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect1678"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara1682"
+         style="font-weight:bold;stroke-width:1.29148018">Vertex</flowPara></flowRoot>    <rect
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect1686"
+       width="134.03014"
+       height="150.1106"
+       x="4477.4253"
+       y="1177.0381"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1696"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       transform="matrix(0.20486828,0,0,0.20486828,4732.6389,1275.3049)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1690"
+         style="font-size:96px;stroke-width:1.29148018"><rect
+           id="rect1688"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.29148018" /></flowRegion><flowPara
+         id="flowPara1692"
+         style="stroke-width:1.29148018">position</flowPara><flowPara
+         id="flowPara1694"
+         style="stroke-width:1.29148018">color</flowPara></flowRoot>    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.16027161,0,0,0.20486828,4674.1701,1239.2836)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.46014774"
+       id="flowRoot1704"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.46014774"
+         id="flowRegion1700"><rect
+           style="font-size:96px;stroke-width:1.46014774"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect1698" /></flowRegion><flowPara
+         style="font-weight:bold;stroke-width:1.46014774"
+         id="flowPara1702">InstanceData</flowPara></flowRoot>    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="1177.0381"
+       x="4611.4556"
+       height="150.1106"
+       width="134.03014"
+       id="rect1728"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718544;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.20486828,0,0,0.20486828,4866.6692,1275.3049)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.29148018"
+       id="flowRoot1738"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.29148018"
+         id="flowRegion1732"><rect
+           style="font-size:96px;stroke-width:1.29148018"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect1730" /></flowRegion><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1734">position</flowPara><flowPara
+         style="stroke-width:1.29148018"
+         id="flowPara1736">color</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1746"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.46014774"
+       transform="matrix(0.16027161,0,0,0.20486828,4808.2004,1239.2836)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion1742"
+         style="font-size:96px;stroke-width:1.46014774"><rect
+           id="rect1740"
+           width="2140.394"
+           height="1324.4641"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.46014774" /></flowRegion><flowPara
+         id="flowPara1744"
+         style="font-weight:bold;stroke-width:1.46014774">InstanceData</flowPara></flowRoot>    <path
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:1.28699982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.14799936, 5.14799936;stroke-dashoffset:0;stroke-opacity:1;marker-end:url(#marker2094)"
+       d="M 3872.2884,880.75674 C 3408.2495,730.3149 3156.3887,831.55202 3085.4056,979.87498"
+       id="path2054"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <rect
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       y="438.04431"
+       x="3741.7932"
+       height="362.35901"
+       width="593.21423"
+       id="rect2396"
+       style="opacity:1;vector-effect:none;fill:none;fill-opacity:0.29126216;stroke:#000000;stroke-width:2.52718568;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2404"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,4241.0823,517.57493)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion2400"
+         style="font-size:96px"><rect
+           id="rect2398"
+           width="2275.7065"
+           height="191.87276"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px" /></flowRegion><flowPara
+         id="flowPara2402"
+         style="font-weight:bold">vkCmdDraw(...)</flowPara></flowRoot>    <path
+       style="opacity:1;vector-effect:none;fill:#e38b85;fill-opacity:1;stroke:none;stroke-width:1.2869333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.14773329, 5.14773329;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 4546.5502,1250.3743 h 22.7497 v 20.4326 h -22.4369 z"
+       id="path2742"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccc"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <path
+       sodipodi:nodetypes="ccccc"
+       inkscape:connector-curvature="0"
+       id="path2750"
+       d="m 4680.647,1250.3743 h 22.7497 v 20.4326 h -22.4369 z"
+       style="opacity:1;vector-effect:none;fill:#6edea6;fill-opacity:1;stroke:none;stroke-width:1.2869333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.14773329, 5.14773328999999968;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <path
+       style="opacity:1;vector-effect:none;fill:#e38b85;fill-opacity:1;stroke:none;stroke-width:1.2869333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.14773329, 5.14773329;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 4017.6814,650.739 116.8664,-134.84593 49.4435,223.24491 z"
+       id="path2752"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path2762"
+       d="m 4122.5616,674.71161 116.8664,-134.84593 49.4435,223.24491 z"
+       style="opacity:1;vector-effect:none;fill:#6edea6;fill-opacity:1;stroke:none;stroke-width:1.2869333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:5.14773335, 5.14773335;stroke-dashoffset:0;stroke-opacity:1"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618" />
+    <flowRoot
+       inkscape:export-ydpi="15.131618"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       transform="matrix(0.24584363,0,0,0.24584363,4046.7037,627.23299)"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.07622612"
+       id="flowRoot2788"
+       xml:space="preserve"><flowRegion
+         style="font-size:96px;stroke-width:1.07622612"
+         id="flowRegion2780"><rect
+           style="font-size:96px;stroke-width:1.07622612"
+           y="-251.76607"
+           x="-1174.2858"
+           height="1324.4641"
+           width="2140.394"
+           id="rect2778" /></flowRegion><flowPara
+         id="flowPara2786"
+         style="stroke-width:1.07622612">vertexCount</flowPara><flowPara
+         style="stroke-width:1.07622612"
+         id="flowPara2807">instanceCount</flowPara><flowPara
+         style="stroke-width:1.07622612"
+         id="flowPara2809">firstVertex</flowPara><flowPara
+         style="stroke-width:1.07622612"
+         id="flowPara2811">firstInstance</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot2800"
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.07622612"
+       transform="matrix(0.24584363,0,0,0.24584363,4222.4442,627.23299)"
+       inkscape:export-filename="C:\Users\David\Documents\graphics_notes\vulkan\renders\render_pass_framebuffer_relationship.png"
+       inkscape:export-xdpi="15.131618"
+       inkscape:export-ydpi="15.131618"><flowRegion
+         id="flowRegion2792"
+         style="font-size:96px;stroke-width:1.07622612"><rect
+           id="rect2790"
+           width="2388.3584"
+           height="1050.6703"
+           x="-1174.2858"
+           y="-251.76607"
+           style="font-size:96px;stroke-width:1.07622612" /></flowRegion><flowPara
+         style="stroke-width:1.07622612"
+         id="flowPara2798">= 3</flowPara><flowPara
+         style="stroke-width:1.07622612"
+         id="flowPara2819">= 2</flowPara><flowPara
+         style="stroke-width:1.07622612"
+         id="flowPara2821">= 0</flowPara><flowPara
+         style="stroke-width:1.07622612"
+         id="flowPara2823">= 0</flowPara></flowRoot>  </g>
+</svg>

@@ -17,6 +17,8 @@ tags
 !*.inl
 
 !*.md
+!*.png
+!*.svg
 !*.excalidraw
 !*.pdf
 
