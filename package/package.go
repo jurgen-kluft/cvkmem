@@ -18,13 +18,13 @@ func GetPackage() *denv.Package {
 	mainpkg.AddPackage(basepkg)
 
 	// 'cvkmem' library
-	mainlib := denv.SetupDefaultCppLibProject("cvkmem", "github.com\\jurgen-kluft\\cvkmem")
-	mainlib.Dependencies = append(mainlib.Dependencies, basepkg.GetMainLib())
+	mainlib := denv.SetupCppLibProject("cvkmem", "github.com\\jurgen-kluft\\cvkmem")
+	mainlib.AddDependencies(basepkg.GetMainLib()...)
 
 	// unittest project
 	maintest := denv.SetupDefaultCppTestProject("cvkmem_test", "github.com\\jurgen-kluft\\cvkmem")
-	maintest.Dependencies = append(maintest.Dependencies, basepkg.GetMainLib())
-	maintest.Dependencies = append(maintest.Dependencies, unittestpkg.GetMainLib())
+	maintest.AddDependencies(basepkg.GetMainLib()...)
+	maintest.AddDependencies(unittestpkg.GetMainLib()...)
 	maintest.Dependencies = append(maintest.Dependencies, mainlib)
 
 	mainpkg.AddMainLib(mainlib)
