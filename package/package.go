@@ -13,19 +13,19 @@ func GetPackage() *denv.Package {
 	unittestpkg := cunittest.GetPackage()
 
 	// The main (cvkmem) package
-	mainpkg := denv.NewPackage("cvkmem")
+	mainpkg := denv.NewPackage("github.com\\jurgen-kluft", "cvkmem")
 	mainpkg.AddPackage(unittestpkg)
 	mainpkg.AddPackage(basepkg)
 
 	// 'cvkmem' library
-	mainlib := denv.SetupCppLibProject("cvkmem", "github.com\\jurgen-kluft\\cvkmem")
+	mainlib := denv.SetupCppLibProject(mainpkg, "cvkmem")
 	mainlib.AddDependencies(basepkg.GetMainLib()...)
 
 	// unittest project
-	maintest := denv.SetupDefaultCppTestProject("cvkmem_test", "github.com\\jurgen-kluft\\cvkmem")
+	maintest := denv.SetupCppTestProject(mainpkg, "cvkmem_test")
 	maintest.AddDependencies(basepkg.GetMainLib()...)
 	maintest.AddDependencies(unittestpkg.GetMainLib()...)
-	maintest.Dependencies = append(maintest.Dependencies, mainlib)
+	maintest.AddDependency(mainlib)
 
 	mainpkg.AddMainLib(mainlib)
 	mainpkg.AddUnittest(maintest)
